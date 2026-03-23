@@ -62,33 +62,16 @@ body {
     padding: 0 var(--space-lg);
 }
 
-/* Hero Section - Manufacturing Background */
+/* Hero Section - Prominent Logo Design */
 .hero-section {
     min-height: 100vh;
-    background: 
-        linear-gradient(135deg, rgba(248, 250, 252, 0.92) 0%, rgba(255, 255, 255, 0.95) 50%, rgba(248, 250, 252, 0.92) 100%),
-        url('../images/manufacturing-bg.jpg');
-    background-size: cover, cover;
-    background-position: center, center;
-    background-attachment: fixed;
+    background: linear-gradient(135deg, var(--gray-50) 0%, var(--white) 50%, var(--gray-50) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: var(--space-2xl) var(--space-lg);
     position: relative;
-}
-
-.hero-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    backdrop-filter: blur(2px);
-    background: rgba(255, 255, 255, 0.1);
-    pointer-events: none;
 }
 
 .hero-container {
