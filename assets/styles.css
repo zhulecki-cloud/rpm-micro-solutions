@@ -64,13 +64,13 @@ body {
 
 /* Hero Section - Prominent Logo Design */
 .hero-section {
-    min-height: 100vh;
+    min-height: 70vh;
     background: linear-gradient(135deg, var(--gray-50) 0%, var(--white) 50%, var(--gray-50) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: var(--space-2xl) var(--space-lg);
+    padding: var(--space-xl) var(--space-lg);
     position: relative;
 }
 
@@ -81,13 +81,13 @@ body {
 
 /* Prominent Logo Container */
 .hero-logo-container {
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-xl);
 }
 
 .hero-main-logo {
-    height: 200px;
+    height: 160px;
     width: auto;
-    margin: 0 auto var(--space-lg);
+    margin: 0 auto var(--space-md);
     display: block;
     filter: contrast(1.1) brightness(1.05);
     background: transparent !important;
@@ -111,7 +111,7 @@ body {
 
 /* Value Proposition */
 .value-prop {
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -277,7 +277,7 @@ body {
 
 /* Specialization Section */
 .specialization {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
@@ -355,7 +355,7 @@ body {
 
 /* Case Studies */
 .case-studies {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--white);
 }
 
@@ -364,7 +364,7 @@ body {
     font-weight: 700;
     color: var(--primary-navy);
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .cases-grid {
@@ -436,7 +436,7 @@ body {
 
 /* Services Overview */
 .services-overview {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
@@ -445,7 +445,7 @@ body {
     font-weight: 700;
     color: var(--primary-navy);
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .services-grid {
@@ -499,7 +499,7 @@ body {
 
 /* Contact CTA */
 .contact-cta {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--primary-navy);
     color: var(--white);
     text-align: center;
@@ -513,7 +513,7 @@ body {
 
 .contact-cta p {
     font-size: 1.125rem;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -546,7 +546,7 @@ body {
 }
 
 .hero-logo-container {
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .hero-main-logo {
@@ -576,7 +576,7 @@ body {
 
 /* Company Story Section */
 .company-story {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
@@ -667,7 +667,7 @@ body {
 
 /* Mission & Values */
 .mission-values {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--white);
 }
 
@@ -715,13 +715,13 @@ body {
 
 /* Services Detail Section */
 .services-detail {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--white);
 }
 
 .services-intro {
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .services-intro h2 {
@@ -779,7 +779,7 @@ body {
 
 /* Capabilities Detail */
 .capabilities-detail {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
@@ -788,7 +788,7 @@ body {
     font-weight: 700;
     color: var(--primary-navy);
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .capability-stats {
@@ -870,7 +870,7 @@ body {
 
 /* Process Flow */
 .process-flow {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--white);
 }
 
@@ -879,7 +879,7 @@ body {
     font-weight: 700;
     color: var(--primary-navy);
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .process-steps {
@@ -922,7 +922,7 @@ body {
 
 /* Contact Information Section */
 .contact-info {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--white);
 }
 
@@ -1100,7 +1100,7 @@ body {
 
 /* Response Timeline */
 .response-timeline {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
@@ -1109,7 +1109,7 @@ body {
     font-weight: 700;
     color: var(--primary-navy);
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .timeline-steps {
@@ -1168,13 +1168,13 @@ body {
 
 /* Technology Overview */
 .technology-overview {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
 .tech-intro {
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .tech-intro h2 {
@@ -1225,7 +1225,7 @@ body {
 
 /* Core Technologies */
 .core-technologies {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--white);
 }
 
@@ -1234,18 +1234,18 @@ body {
     font-weight: 700;
     color: var(--primary-navy);
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 /* Market Overview */
 .market-overview {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
 .market-intro {
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .market-intro h2 {
@@ -1296,7 +1296,7 @@ body {
 
 /* Target Applications */
 .target-applications {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--white);
 }
 
@@ -1305,7 +1305,7 @@ body {
     font-weight: 700;
     color: var(--primary-navy);
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .applications-grid {
@@ -1369,7 +1369,7 @@ body {
 
 /* Location Section */
 .location-section {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
@@ -1378,7 +1378,7 @@ body {
     font-weight: 700;
     color: var(--primary-navy);
     text-align: center;
-    margin-bottom: var(--space-3xl);
+    margin-bottom: var(--space-2xl);
 }
 
 .location-grid {
@@ -1780,7 +1780,7 @@ body {
 
 /* Leadership Team Section */
 .leadership-team {
-    padding: var(--space-3xl) 0;
+    padding: var(--space-2xl) 0;
     background: var(--gray-50);
 }
 
@@ -1812,7 +1812,7 @@ body {
 .team-member {
     background: var(--white);
     border-radius: var(--radius-xl);
-    padding: var(--space-3xl);
+    padding: var(--space-2xl);
     box-shadow: var(--shadow-md);
     transition: all 0.3s;
     display: grid;
